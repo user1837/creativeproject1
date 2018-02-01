@@ -1,0 +1,208 @@
+/*Creative Project 1 Stylesheet */
+body {
+	background-image: url("Slide3.jpg");
+}
+
+.header {
+	/*background-color: blue*/
+}
+
+h1 {
+	text-align: center;
+	font-family: Snell Roundhand;
+	font-size: 45px;
+}
+
+h2 {
+	font-family: Snell Roundhand;
+	font-size: 30px;
+	margin: 25px;
+}
+
+nav ul {
+	display: flex;
+	flex-direction: row;
+	list-style-type: none;
+	justify-content: center;
+	/*background-color: yellow;*/
+}
+
+nav ul li {
+	/*background-color: green;*/
+	margin: 10px;
+	padding: 5px;
+}
+
+nav li a {
+	text-decoration: none;
+	font-family: Book Antiqua;
+	color: black;
+	font-size: 20px;
+}
+
+nav li a:hover {
+	text-decoration: underline;
+}
+
+.active {
+    text-decoration: underline;
+}
+
+.main_content {
+	/*background-color: red;*/
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	/*justify-content: center;*/
+}
+
+#home {
+	width: 464px;
+	height: 500px;
+	margin: 10px;
+	border: 1px solid black;
+	border-radius: 5px;
+	/*max-width: 100%;
+    height: auto;*/
+}
+
+/*section {
+ display: flex;
+ justify-content: space-around;
+}
+
+aside {
+ flex: 4
+ margin: 15px;
+ width: 40%
+}
+
+article {
+ flex: 1
+ margin-top: 15px;
+ margin-right: 10px;
+ margin-bottom: 15px;
+ margin-left: 15px;
+ width: 60%
+}*/
+
+.about {
+	width: 700px;
+	height: 466px;
+	border: 1px solid black;
+	border-radius: 5px;
+	margin: 20px;
+	/*max-width: 100%;
+    height: auto;*/
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p {
+	font-family: Book Antiqua, Goudy Old Style;
+	margin: 15px;
+	line-height: 1.5;
+}
+
+ul {
+	font-family: Book Antiqua, Goudy Old Style;
+	margin: 15px;
+	line-height: 1.5;
+}
+
+.paragraph {
+	width: 50%;
+}
+
+.reviews {
+	width: 500px;
+}
+
+.gallery {
+	border: 1px solid black;
+	display: grid;
+	grid-template-columns: auto auto auto auto auto;
+	grid-column-gap: 2px;
+	grid-row-gap: 2px;
+	margin: 15px;
+	justify-content: center;
+	overflow: hidden;
+}
+
+.box {
+	display: flex;
+}
+
+
+.galleryimg {
+	width: 200px;
+	height: 150px;
+	margin: 10px;
+}
+
+form {
+	margin-top: 20px;
+	margin-right: 20px;
+	margin-bottom: 40px;
+	margin-left: 20px;
+	width: 400px;
+	padding: 1em;
+	border: 3px solid black;
+	border-radius: 1em;
+}
+
+form div + div {
+	margin-top: 1em;
+}
+
+label {
+	display: inline-block;
+	width: 90px;
+	text-align: right;
+	font-family: Book Antiqua;
+	font-size: 20px;
+}
+
+input, textarea {
+	font: 1em Book Antiqua;
+	width: 300px;
+  	box-sizing: border-box;
+  	border: 1px solid #999;
+  	border-radius: 3px;
+  	padding: 5px;
+  }
+
+input:focus, textarea:focus {
+	 border-color: #000;
+}
+
+textarea {
+	vertical-align: top;
+	height: 100px;
+	resize: none;
+}
+
+.button {
+	padding-left: 90px;
+}
+
+button {
+	margin-left: .5em;
+	background-color: white;
+	border: 2px solid black;
+	border-radius: 2px;
+	font-size: 20px;
+	padding: 10px;
+	font-family: Book Antiqua;
+}
+
+button:hover {
+	cursor: pointer;
+	background-color: black;
+	color: white;
+}
+.footer {
+	/*background-color: pink;*/
+}
+
