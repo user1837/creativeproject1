@@ -4,7 +4,7 @@ body {
 }
 
 .header {
-	/*background-color: blue*/
+
 }
 
 .header .show-menu {
@@ -36,11 +36,9 @@ nav ul {
 	flex-direction: row;
 	list-style-type: none;
 	justify-content: center;
-	/*background-color: yellow;*/
 }
 
 nav ul li {
-	/*background-color: green;*/
 	margin: 10px;
 	padding: 5px;
 }
@@ -61,11 +59,9 @@ nav li a:hover {
 }
 
 .main_content {
-	/*background-color: red;*/
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	/*justify-content: center;*/
 }
 
 #home {
@@ -74,29 +70,8 @@ nav li a:hover {
 	margin: 10px;
 	border: 1px solid black;
 	border-radius: 5px;
-	/*max-width: 100%;
-    height: auto;*/
 }
 
-/*section {
- display: flex;
- justify-content: space-around;
-}
-
-aside {
- flex: 4
- margin: 15px;
- width: 40%
-}
-
-article {
- flex: 1
- margin-top: 15px;
- margin-right: 10px;
- margin-bottom: 15px;
- margin-left: 15px;
- width: 60%
-}*/
 
 .about {
 	width: 700px;
@@ -104,8 +79,6 @@ article {
 	border: 1px solid black;
 	border-radius: 5px;
 	margin: 20px;
-	/*max-width: 100%;
-    height: auto;*/
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -214,7 +187,7 @@ button:hover {
 	color: white;
 }
 .footer {
-	/*background-color: pink;*/
+
 }
 
 .footer .show-git {
